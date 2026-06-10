@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Léonard Martinez</h1>
+<h1 align="center">Hi 👋, I'm Léo Martinez</h1>
 <h3 align="center">Postdoctoral Researcher 🔬 | Tech & Data Enthusiast 💻</h3>
 
 <p align="center">
@@ -17,10 +17,7 @@
 
 ## 👨‍🔬 About Me
 
-- 🎓 Postdoctoral researcher based in Sherbrooke, QC  
-- 🔍 Passionate about research, data analysis, and solving complex problems  
-- 💡 Interested in technology, scientific computing, and building useful tools  
-- 🌐 Check out my website: [leomrtinez.github.io](https://leomrtinez.github.io)
+I'm a french 🎓 Postdoctoral researcher based in Sherbrooke, QC 🇨🇦. I'm passionate about research 🔭, data analysis 💻, and solving complex problems ☄️. I'm also interested in technology, scientific computing, and building useful tools. Go check out my website 🌐: [leomrtinez.github.io](https://leomrtinez.github.io)
 
 ---
 
