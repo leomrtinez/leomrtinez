@@ -6,7 +6,7 @@
     <img src="https://img.shields.io/badge/Website-Portfolio-blue?style=for-the-badge&logo=github" />
   </a>
   <a href="mailto:leonard.martinez@usherbrooke.ca">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" />
+    <img src="https://img.shields.io/badge/Email-usherbrooke.ca-red?style=for-the-badge&logo=maildotru" />
   </a>
   <a href="https://www.linkedin.com/in/leomartinez56/?locale=fr"> 
     <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" />
