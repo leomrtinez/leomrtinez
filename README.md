@@ -8,7 +8,7 @@
   <a href="mailto:leonard.martinez@usherbrooke.ca">
     <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" />
   </a>
-  <a href="[https://www.linkedin.com/feed/](https://www.linkedin.com/in/leomartinez56/?locale=fr)"> 
+  <a href="https://www.linkedin.com/in/leomartinez56/?locale=fr"> 
     <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" />
   </a>
 </p>
