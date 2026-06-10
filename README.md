@@ -5,7 +5,7 @@
   <a href="https://leomrtinez.github.io">
     <img src="https://img.shields.io/badge/Website-Portfolio-blue?style=for-the-badge&logo=github" />
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:leonard.martinez@usherbrooke.ca">
     <img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail" />
   </a>
 </p>
