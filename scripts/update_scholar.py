@@ -47,12 +47,13 @@ def publication_link(pub):
 
 def render_publication(pub):
     """
-    Convertit une publication Scholar en bloc Markdown/HTML
-    pour un rendu compact dans le README.
+    Convertit une publication Scholar en bloc HTML/Markdown
+    pour un rendu proche de Google Scholar dans le README.
     """
     bib = pub.get("bib", {})
 
     title = clean(bib.get("title")) or "Titre indisponible"
+
     authors = clean(
         bib.get("author")
         or bib.get("authors")
@@ -77,9 +78,7 @@ def render_publication(pub):
     venue_parts = [part for part in [venue, year] if part]
     venue_line = " · ".join(venue_parts)
 
-    block = f"""<p>
-  <a href="{link}"><strong>{title}</strong></a><br>
-"""
+    block = f"""<p><a href="{link}"><strong>{title}</strong></a><br>"""
 
     if authors:
         block += f"  <em>{authors}</em><br>\n"
@@ -91,6 +90,9 @@ def render_publication(pub):
     block += "</p>"
 
     return block
+
+  
+
 
 
 def generate_publications_section():
