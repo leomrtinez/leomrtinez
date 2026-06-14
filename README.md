@@ -32,9 +32,11 @@ I'm a french 🎓 Postdoctoral researcher based in Sherbrooke, QC 🇨🇦. I'm 
 
 ## 📕 My research 
 
-- My PhD Thesis : [tel-05405266v1](https://hal.science/tel-05405266v1)
-- 
-## Publications
+### PhD
+
+My PhD Thesis : [tel-05405266v1](https://hal.science/tel-05405266v1)
+
+### Articles & Abstracts
 
 <a href="https://scholar.google.ca/citations?user=g1__itUAAAAJ&hl=fr&oi=sra">
   <img src="https://img.shields.io/badge/Google%20Scholar-Profil-4285F4?logo=google-scholar&logoColor=white" alt="Google Scholar">
