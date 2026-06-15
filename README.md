@@ -61,12 +61,34 @@ I'm a french 🎓 Postdoctoral researcher based in Sherbrooke, QC 🇨🇦. I'm 
 <p><a href="https://scholar.google.ca/citations?user=g1__itUAAAAJ&hl=fr&oi=sra">Voir toutes mes publications sur Google Scholar</a></p>
 <!-- PUBLICATIONS:END -->
 
-## 🛠️ Tech Stack
+## 🛠️ Main skills
 
-```text
-Languages        : Python | R | MATLAB | SQL  
-Tools            : Git | Docker | Linux | Jupyter  
-Data             : Pandas | NumPy | SciPy | Matplotlib  
-Other            : LaTeX | Markdown | Bash  
+<p align="left">
+  <img src="https&logoColor=white)  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,git,github,linux,bash,docker,latex" />
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-111111?style=for-the-badge)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-222222?style=for-the-badge)
 
+### Planetary science & remote sensing
+![Mars](https://img.shields.io/badge/Mars-Planetary%20Science-C1440E?style=for-the-badge)
+![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-2E8B57?style=for-the-badge)
+![Crater Detection](https://img.shields.io/badge/Crater%20Detection-6A5ACD?style=for-the-badge)
+![Geomorphology](https://img.shields.io/badge/Geomorphology-8B4513?style=for-the-badge)
+
+### Tools & workflow
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
+</p>
+
+### Scientific computing & data analysis
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+
+### Machine learning & computer vision
 
