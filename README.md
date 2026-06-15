@@ -41,28 +41,7 @@ My PhD Thesis : [tel-05405266v1](https://hal.science/tel-05405266v1)
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profil-4285F4?logo=google-scholar&logoColor=white)](https://scholar.google.ca/citations?user=g1__itUAAAAJ&hl=fr&oi=sra)
 
 <!-- PUBLICATIONS:START -->
-<p>
-  <strong>Automatic Crater Classification Using a Deep-learning-based Pipeline</strong><br>
-  <em>L. Martinez, F. Andrieu, F. Schmidt, M. S. Bentley</em><br>
-  JGR Machine Learning and Computation · 2026<br>
-</p>
-
-<p>
-  <a href="https://doi.org/10.1016/j.pss.2025.106053"><strong>Robust automatic crater detection at all latitudes on Mars with Deep-learning</strong></a><br>
-  <em>L. Martinez, F. Andrieu, F. Schmidt, H. Talbot, M. S. Bentley</em><br>
-  Planetary and Space Science · 2025<br>
-  <sub>260</sub><br>
-  <sub>DOI: <a href="https://doi.org/10.1016/j.pss.2025.106053">10.1016/j.pss.2025.106053</a></sub>
-</p>
-
-<p>
-  <a href="https://hal.science/tel-05405266v1"><strong>AC/DC : Automatic Crater Detection and Characterization</strong></a><br>
-  <em>L. Martinez</em><br>
-  Université Paris-Saclay · 2025<br>
-</p>
-<p><a href="https://scholar.google.ca/citations?user=g1__itUAAAAJ&hl=fr&oi=sra">Voir toutes mes publications sur Google Scholar</a></p>
 <!-- PUBLICATIONS:END -->
-
 
 ## 🛠️ Tech Stack
 
