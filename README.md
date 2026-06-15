@@ -63,18 +63,8 @@ I'm a french 🎓 Postdoctoral researcher based in Sherbrooke, QC 🇨🇦. I'm 
 
 ## 🛠️ Main skills
 
-## 🛠️ Main skills
-
-<p-444444?style=for-the-badge" /><p align="center">
-</p>
-
-### Planetary science & research
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Mars-Planetary%20Science-C1440E?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Remote%20Sensing-2E8B57?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Crater%20Detection-6A5ACD?style=for-the-badge" />
-</p>
   <a href="https://skillicons.dev">
     <img 
       src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,git,github,linux,bash,docker,latex&theme=dark&perline=5" 
@@ -83,9 +73,4 @@ I'm a french 🎓 Postdoctoral researcher based in Sherbrooke, QC 🇨🇦. I'm 
   </a>
 </p>
 
-### Scientific computing & machine learning
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Deep%20Learning-111111?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Computer%20Vision-222222?style=for-the-badge" />
 
