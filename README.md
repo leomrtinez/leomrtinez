@@ -64,7 +64,7 @@ I'm a french 🎓 Postdoctoral researcher based in Sherbrooke, QC 🇨🇦. I'm 
 ## 🛠️ Main skills
 
 
-<p align="center">
+<p align="left">
   <a href="https://skillicons.dev">
     <img 
       src="https://skillicons.dev/icons?i=python,fortran,cpp,html,pytorch,sklearn,opencv,git,github,githubactions,gitlab,linux,apple,ubuntu,bash,raspberrypi,latex,md,anaconda,vim,vscode&theme=dark&perline=7" 
