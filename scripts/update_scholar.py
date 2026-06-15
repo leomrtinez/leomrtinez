@@ -1,3 +1,4 @@
+import os
 import re
 from urllib.parse import quote
 
@@ -10,21 +11,7 @@ README_PATH = "README.md"
 MAX_PUBLICATIONS = 10
 
 
-def clean(value):
-    """
-    Nettoie les valeurs récupérées depuis Google Scholar.
-    """
-    if not value:
-        return ""
-    return str(value).replace("\n", " ").strip()
-
-
 def publication_link(pub):
-    """
-    Retourne le meilleur lien disponible pour une publication.
-    Si Google Scholar fournit un lien direct, on l'utilise.
-    Sinon, on construit un lien vers la page de citation Scholar.
-    """
     if pub.get("pub_url"):
         return pub["pub_url"]
 
@@ -35,7 +22,6 @@ def publication_link(pub):
             if author_pub_id.startswith(f"{SCHOLAR_ID}:")
             else f"{SCHOLAR_ID}:{author_pub_id}"
         )
-
         return (
             "https://scholar.google.ca/citations?"
             f"view_op=view_citation&hl=fr&user={SCHOLAR_ID}"
@@ -45,11 +31,13 @@ def publication_link(pub):
     return PROFILE_URL
 
 
+def clean(value):
+    if not value:
+        return ""
+    return str(value).replace("\n", " ").strip()
+
+
 def render_publication(pub):
-    """
-    Convertit une publication Scholar en bloc Markdown/HTML
-    pour un rendu compact dans le README.
-    """
     bib = pub.get("bib", {})
 
     title = clean(bib.get("title")) or "Titre indisponible"
@@ -74,101 +62,65 @@ def render_publication(pub):
     citations = pub.get("num_citations", 0)
     link = publication_link(pub)
 
-    venue_parts = [part for part in [venue, year] if part]
-    venue_line = " · ".join(venue_parts)
+    venue_line = " · ".join(part for part in [venue, year] if part)
 
-    block = f"""<p>
-  {link}<strong>{title}</strong></a><br>
-"""
+    lines = [
+        f"### {link}",
+    ]
 
     if authors:
-        block += f"  <em>{authors}</em><br>\n"
+        lines.append(f"{authors}")
 
     if venue_line:
-        block += f"  {venue_line}<br>\n"
+        lines.append(f"*{venue_line}*")
 
-    block += f"  <sub>Cité par : {citations}</sub>\n"
-    block += "</p>"
+    lines.append(f"**Cité par : {citations}**")
+    lines.append("")
 
-    return block
+    return "\n".join(lines)
 
 
-def generate_publications_section():
-    """
-    Récupère les publications Google Scholar et génère le contenu Markdown.
-    """
+def main():
     author = scholarly.search_author_id(SCHOLAR_ID)
     author = scholarly.fill(author)
 
     publications = author.get("publications", [])
 
+    # Google Scholar retourne souvent les publications déjà triées par citations.
+    # On force ici un tri décroissant par citations pour un rendu “Scholar-like”.
     publications = sorted(
         publications,
-        key=lambda pub: pub.get("num_citations", 0),
+        key=lambda p: p.get("num_citations", 0),
         reverse=True,
     )
 
-    selected_publications = publications[:MAX_PUBLICATIONS]
-
-    if not selected_publications:
-        return "_Aucune publication trouvée automatiquement._"
-
-    rendered_publications = [
+    rendered = "\n".join(
         render_publication(pub)
-        for pub in selected_publications
-    ]
-
-    footer = (
-        f'\n<p>{PROFILE_URL}'
-        "Voir toutes mes publications sur Google Scholar"
-        "</a></p>"
+        for pub in publications[:MAX_PUBLICATIONS]
     )
 
-    return "\n\n".join(rendered_publications) + footer
+    if not rendered.strip():
+        rendered = "_Aucune publication trouvée automatiquement._"
 
-
-def update_readme(publications_section):
-    """
-    Remplace le contenu situé entre les marqueurs du README.
-    """
     with open(README_PATH, "r", encoding="utf-8") as file:
         readme = file.read()
 
-    start_marker = "<!-- GOOGLE-SCHOLAR:START -->"
-    end_marker = "<!-- GOOGLE-SCHOLAR:END -->"
-
     pattern = (
-        f"{re.escape(start_marker)}"
+        r"<!-- GOOGLE-SCHOLAR:START -->"
         r".*?"
-        f"{re.escape(end_marker)}"
+        r"<!-- GOOGLE-SCHOLAR:END -->"
     )
 
     replacement = (
-        f"{start_marker}\n"
-        f"{publications_section}\n"
-        f"{end_marker}"
+        "<!-- GOOGLE-SCHOLAR:START -->\n"
+        f"{rendered}\n"
+        "<!-- GOOGLE-SCHOLAR:END -->"
     )
 
-    updated_readme = re.sub(
-        pattern,
-        replacement,
-        readme,
-        flags=re.DOTALL,
-    )
-
-    if updated_readme == readme:
-        raise RuntimeError(
-            "Les marqueurs GOOGLE-SCHOLAR n'ont pas été trouvés dans README.md."
-        )
+    updated = re.sub(pattern, replacement, readme, flags=re.DOTALL)
 
     with open(README_PATH, "w", encoding="utf-8") as file:
-        file.write(updated_readme)
-
-
-def main():
-    publications_section = generate_publications_section()
-    update_readme(publications_section)
-    print("README.md mis à jour avec les publications Google Scholar.")
+        file.write(updated)
 
 
 if __name__ == "__main__":
