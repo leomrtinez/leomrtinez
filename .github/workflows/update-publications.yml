@@ -5,12 +5,15 @@ on:
     paths:
       - "publications.bib"
       - "scripts/update_publications_from_bib.py"
-      - "README.md"
       - ".github/workflows/update-publications.yml"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-publications-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   update-publications:
@@ -19,6 +22,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,6 +42,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add README.md
-          git diff --cached --quiet || git commit -m "Update publications from BibTeX"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No README changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update publications from BibTeX"
+
+          git pull --rebase origin main
+          git push origin main
