@@ -8,7 +8,7 @@ from scholarly import scholarly
 SCHOLAR_ID = "g1__itUAAAAJ"
 PROFILE_URL = "https://scholar.google.ca/citations?user=g1__itUAAAAJ&hl=fr&oi=sra"
 README_PATH = "README.md"
-MAX_PUBLICATIONS = 10
+MAX_PUBLICATIONS = 5
 
 
 def publication_link(pub):
