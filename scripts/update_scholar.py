@@ -7,7 +7,7 @@ from scholarly import scholarly
 SCHOLAR_ID = "g1__itUAAAAJ"
 PROFILE_URL = "https://scholar.google.ca/citations?user=g1__itUAAAAJ&hl=fr&oi=sra"
 README_PATH = "README.md"
-MAX_PUBLICATIONS = 10
+MAX_PUBLICATIONS = 5
 
 
 def clean(value):
@@ -45,6 +45,8 @@ def publication_link(pub):
     return PROFILE_URL
 
 
+
+
 def render_publication(pub):
     """
     Convertit une publication Scholar en bloc HTML/Markdown
@@ -78,7 +80,9 @@ def render_publication(pub):
     venue_parts = [part for part in [venue, year] if part]
     venue_line = " · ".join(venue_parts)
 
-    block = f"""<p><a href="{link}"><strong>{title}</strong></a><br>"""
+    block = f"""<p>
+  {link}<strong>{title}</strong></a><br>
+"""
 
     if authors:
         block += f"  <em>{authors}</em><br>\n"
