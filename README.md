@@ -38,30 +38,10 @@ My PhD Thesis : [tel-05405266v1](https://hal.science/tel-05405266v1)
 
 ### Articles & Abstracts
 
-<a href="https://scholar.google.ca/citations?user=g1__itUAAAAJ&hl=fr&oi=sra">
-  <img src="https://img.shields.io/badge/Google%20Scholar-Profil-4285F4?logo=google-scholar&logoColor=white" alt="Google Scholar">
-</a>
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profil-4285F4?logo=google-scholar&logoColor=white)](https://scholar.google.ca/citations?user=g1__itUAAAAJ&hl=fr&oi=sra)
 
-<!-- GOOGLE-SCHOLAR:START -->
-<p>
-  <a href="https://scholar.google.ca/citations?view_op=view_citation&hl=fr&user=g1__itUAAAAJ&citation_for_view=g1__itUAAAAJ%3Au-x6o8ySG0sC"><strong>Robust automatic crater detection at all latitudes on Mars with deep-learning</strong></a><br>
-  2025<br>
-  <sub>Cité par : 6</sub>
-</p>
-
-<p>
-  <a href="https://scholar.google.ca/citations?view_op=view_citation&hl=fr&user=g1__itUAAAAJ&citation_for_view=g1__itUAAAAJ%3Au5HHmVD_uO8C"><strong>Automatic crater detection and classification using Faster R-CNN</strong></a><br>
-  2024<br>
-  <sub>Cité par : 3</sub>
-</p>
-
-<p>
-  <a href="https://scholar.google.ca/citations?view_op=view_citation&hl=fr&user=g1__itUAAAAJ&citation_for_view=g1__itUAAAAJ%3Ad1gkVwhDpl0C"><strong>Automatic classification of Martian impact craters using deep learning: a new tool to improve planetary surface dating</strong></a><br>
-  2025<br>
-  <sub>Cité par : 1</sub>
-</p>
-<p><a href="https://scholar.google.ca/citations?user=g1__itUAAAAJ&hl=fr&oi=sra">Voir toutes mes publications sur Google Scholar</a></p>
-<!-- GOOGLE-SCHOLAR:END -->
+<!-- PUBLICATIONS:START -->
+<!-- PUBLICATIONS:END -->
 
 
 ## 🛠️ Tech Stack
