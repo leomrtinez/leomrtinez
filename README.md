@@ -58,12 +58,6 @@ I'm a french 🎓 Postdoctoral researcher based in Sherbrooke, QC 🇨🇦. I'm 
   <sub>260</sub><br>
   <sub>DOI: <a href="https://doi.org/10.1016/j.pss.2025.106053">10.1016/j.pss.2025.106053</a></sub>
 </p>
-
-<p>
-  <a href="https://hal.science/tel-05405266v1"><strong>AC/DC : Automatic Crater Detection and Characterization</strong></a><br>
-  <em>L. Martinez</em><br>
-  Université Paris-Saclay · 2025<br>
-</p>
 <p><a href="https://scholar.google.ca/citations?user=g1__itUAAAAJ&hl=fr&oi=sra">Voir toutes mes publications sur Google Scholar</a></p>
 <!-- PUBLICATIONS:END -->
 
