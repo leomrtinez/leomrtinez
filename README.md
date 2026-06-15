@@ -67,7 +67,7 @@ I'm a french 🎓 Postdoctoral researcher based in Sherbrooke, QC 🇨🇦. I'm 
 <p align="center">
   <a href="https://skillicons.dev">
     <img 
-      src="https://skillicons.dev/icons?i=python,pytorch,sklearn,opencv,git,github,githubactions,gitlab,linux,apple,ubuntu,bash,raspberrypi,latex,vscode&theme=dark&perline=15" 
+      src="https://skillicons.dev/icons?i=python,fortran,cpp,pytorch,sklearn,opencv,git,github,githubactions,gitlab,linux,apple,ubuntu,bash,raspberrypi,latex,vscode&theme=dark&perline=8" 
       alt="Main skills icons" 
     />
   </a>
