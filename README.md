@@ -34,7 +34,11 @@ I'm a french 🎓 Postdoctoral researcher based in Sherbrooke, QC 🇨🇦. I'm 
 
 ### PhD
 
-My PhD Thesis : [tel-05405266v1](https://hal.science/tel-05405266v1)
+<p>
+  <a href="https://hal.science/tel-05405266v1"><strong>AC/DC : Automatic Crater Detection and Characterization</strong></a><br>
+  <em>L. Martinez</em><br>
+  Université Paris-Saclay · 2025<br>
+</p>
 
 ### Articles & Abstracts
 
