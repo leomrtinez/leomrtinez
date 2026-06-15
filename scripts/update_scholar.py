@@ -7,7 +7,7 @@ from scholarly import scholarly
 SCHOLAR_ID = "g1__itUAAAAJ"
 PROFILE_URL = "https://scholar.google.ca/citations?user=g1__itUAAAAJ&hl=fr&oi=sra"
 README_PATH = "README.md"
-MAX_PUBLICATIONS = 5
+MAX_PUBLICATIONS = 10
 
 
 def clean(value):
@@ -45,17 +45,14 @@ def publication_link(pub):
     return PROFILE_URL
 
 
-
-
 def render_publication(pub):
     """
-    Convertit une publication Scholar en bloc HTML/Markdown
-    pour un rendu proche de Google Scholar dans le README.
+    Convertit une publication Scholar en bloc Markdown/HTML
+    pour un rendu compact dans le README.
     """
     bib = pub.get("bib", {})
 
     title = clean(bib.get("title")) or "Titre indisponible"
-
     authors = clean(
         bib.get("author")
         or bib.get("authors")
@@ -95,9 +92,6 @@ def render_publication(pub):
 
     return block
 
-  
-
-
 
 def generate_publications_section():
     """
@@ -125,7 +119,7 @@ def generate_publications_section():
     ]
 
     footer = (
-        f'\n<p><a href="{PROFILE_URL}">'
+        f'\n<p>{PROFILE_URL}'
         "Voir toutes mes publications sur Google Scholar"
         "</a></p>"
     )
