@@ -45,7 +45,20 @@ I'm a french 🎓 Postdoctoral researcher based in Sherbrooke, QC 🇨🇦. I'm 
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profil-4285F4?logo=google-scholar&logoColor=white)](https://scholar.google.ca/citations?user=g1__itUAAAAJ&hl=fr&oi=sra)
 
 <!-- PUBLICATIONS:START -->
+<p>
+  <a href="https://doi.org/10.1029/2025JH000737"><strong>Automatic Crater Classification Using a Deep-learning-based Pipeline</strong></a><br>
+  <em>L. Martinez, F. Andrieu, F. Schmidt, M. S. Bentley</em><br>
+  JGR Machine Learning and Computation · 2026<br>
+  <sub>DOI: <a href="https://doi.org/10.1029/2025JH000737">10.1029/2025JH000737</a></sub>
+</p>
 
+<p>
+  <a href="https://doi.org/10.1016/j.pss.2025.106053"><strong>Robust automatic crater detection at all latitudes on Mars with Deep-learning</strong></a><br>
+  <em>L. Martinez, F. Andrieu, F. Schmidt, H. Talbot, M. S. Bentley</em><br>
+  Planetary and Space Science · 2025<br>
+  <sub>DOI: <a href="https://doi.org/10.1016/j.pss.2025.106053">10.1016/j.pss.2025.106053</a></sub>
+</p>
+<p><a href="https://scholar.google.ca/citations?user=g1__itUAAAAJ&hl=fr&oi=sra">Voir toutes mes publications sur Google Scholar</a></p>
 <!-- PUBLICATIONS:END -->
 
 ## 🛠️ Main skills
