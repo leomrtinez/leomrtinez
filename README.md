@@ -46,9 +46,11 @@ I'm a french 🎓 Postdoctoral researcher based in Sherbrooke, QC 🇨🇦. I'm 
 
 <!-- PUBLICATIONS:START -->
 <p>
-  <strong>Automatic Crater Classification Using a Deep-learning-based Pipeline</strong><br>
+  <a href="https://doi.org/10.1029/2025JH000737"><strong>Automatic Crater Classification Using a Deep-learning-based Pipeline</strong></a><br>
   <em>L. Martinez, F. Andrieu, F. Schmidt, M. S. Bentley</em><br>
   JGR Machine Learning and Computation · 2026<br>
+  <sub>1</sub><br>
+  <sub>DOI: <a href="https://doi.org/10.1029/2025JH000737">10.1029/2025JH000737</a></sub>
 </p>
 
 <p>
